@@ -1,0 +1,63 @@
+/*********************************************************
+***********************************************************
+Enter rules that apply to ALL screen sizes and ALL pages below.  
+Use the wireframe and pay attention to the way tags are 
+NESTED to help you place the rules in a logical order -- 
+much like an outline you create for a paper or presentation
+Example: 
+************************************************************/
+body {
+    /** rule here**/
+}
+
+/**********************************************************
+Enter special rules that apply to ALL SMALL SCREENS ONLY below.
+Use a logical order! 
+
+***********************************************************/
+
+
+/**********************************************************
+Enter special rules that apply to SOME SMALL SCREENS, if needed
+Be sure to enter a comment to help identify which small screen!
+Applying rules to specific pages usually involves using classes
+or tags that are unique to the page.  (covered in the Classes 
+modlue)  
+Example: 
+        /*****About page rules below *******/
+        .aboutspecialclass {
+
+        } 
+/*************************************************************/
+
+/**************************************************************
+***************************************************************
+Now it is time for the media queryrules that apply to 
+LARGE SCREENS ONLY.
+If a rule was created for ALL SCREENS above, and you want to 
+use the same rule, DO NOT REPEAT IT! 
+
+Start with the media query.  Remember that all the media query 
+rules are NESTED witin the media query braces!  Don't delete that
+last brace! 
+
+For class purposes, use a screen width of 650px.  (This is just 
+to make it easy for me to grade, not because it is the "right" 
+screen size for a smartphone. 
+
+!!!!!THERE IS ONE AND ONLY ONE @media statement!!!!! 
+Do not have a second one unless you asked to code for notebooks 
+or devices with different sizes.   
+***************************************************************/
+
+@media screen and (min-width: 650px)  {
+
+ /***********************************************************
+ Follow the pattern for the small screen, with appropriate
+ comments to indicate the scope of the rules:  
+    ALL LARGE SCREEN rules, followed by 
+    RULES FOR INDIVIDUAL PAGES, if any.
+*************************************************************/
+    
+}
+
