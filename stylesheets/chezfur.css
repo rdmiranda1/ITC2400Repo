@@ -34,7 +34,7 @@ Example:
 
 
 head h1{ 
-  background-image: url(https://th.bing.com/th/id/OIP.culyF4csYKjgaJYxiFyu-AHaFj?rs=1&pid=ImgDetMain);
+  background-image: url(images\LogoSmall.png);
   min-height: 50px; 
   background-position: right top; 
   background-repeat: no-repeat;} 
