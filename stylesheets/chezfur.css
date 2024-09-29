@@ -8,7 +8,8 @@ Example:
 ************************************************************/
 body {
     /** rule here**/
-    background-color: peru; color: bisque;font-family: sans-serif;}
+    background-color: peru; color: bisque;font-family: sans-serif;
+  }
 
 /**********************************************************
 Enter special rules that apply to ALL SMALL SCREENS ONLY below.
