@@ -78,8 +78,11 @@ or devices with different sizes.
     RULES FOR INDIVIDUAL PAGES, if any.
 *************************************************************/
   
-
-
+header { 
+  background-image: url("images\LogoSmall.png");
+  min-height: 50px; 
+  background-position: right top; 
+  background-repeat: no-repeat;
 }
 
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
@@ -88,3 +91,4 @@ body {
 }
 
 
+}
