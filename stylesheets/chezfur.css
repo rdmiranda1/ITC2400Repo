@@ -33,7 +33,15 @@ Example:
 
 
 
- /** This example inclided the Padding and margin attribute. didnt add much but I think this is good practice when using color backgrounds so the words pop out" **/
+header { 
+  background-image: url("images\LogoSmall.png");
+  min-height: 50px; 
+  background-position: right top; 
+  background-repeat: no-repeat;} 
+
+/** This example included the Padding and margin attribute. didnt add much but I think this is good practice when using color backgrounds so the words pop out" **/
+
+
 
 main {
     margin: 0;
