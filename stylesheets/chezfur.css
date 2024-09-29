@@ -78,17 +78,17 @@ or devices with different sizes.
     RULES FOR INDIVIDUAL PAGES, if any.
 *************************************************************/
   
-head { 
-  background-image: url(images\LogoLarge.png);
-  min-height: 100px; 
-  background-position: right top; 
-  background-repeat: no-repeat;
-}
-
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
 body {
   background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;
+
+  header { 
+    background-image: url(images\LogoLarge.png);
+    min-height: 100px; 
+    background-position: right top; 
+   
 }
 
+}
 
 } 
