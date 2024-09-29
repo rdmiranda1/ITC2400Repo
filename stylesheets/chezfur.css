@@ -81,10 +81,9 @@ or devices with different sizes.
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
 body {
   background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;}
-
-
-  head h1{ 
-    background-image: url(images\LogoLarge.png);
-    min-height: 100px; 
-    background-position: right top; }
 }
+
+head h1{ 
+  background-image: url(images\LogoLarge.png);
+  min-height: 100px; 
+  background-position: right top; }
