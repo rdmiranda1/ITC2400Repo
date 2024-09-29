@@ -8,7 +8,7 @@ Example:
 ************************************************************/
 body {
     /** rule here**/
-}
+    background-color: peru; color: bisque;font-family: sans-serif;}
 
 /**********************************************************
 Enter special rules that apply to ALL SMALL SCREENS ONLY below.
@@ -25,11 +25,16 @@ or tags that are unique to the page.  (covered in the Classes
 modlue)  
 Example: 
         /*****About page rules below *******/
-        .aboutspecialclass {
+      /*  .aboutspecialclass {
 
         } 
 /*************************************************************/
-
+main {
+    margin: 0;
+    padding: 5px;
+    content:normal ; background-color: saddlebrown;
+    color: gainsboro;
+  }
 /**************************************************************
 ***************************************************************
 Now it is time for the media queryrules that apply to 
