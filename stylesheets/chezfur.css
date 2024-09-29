@@ -33,8 +33,8 @@ Example:
 
 
 
-head{ 
-  background-image: url(images\LogoSmall.png);
+head h1{ 
+  background-image: url(https://th.bing.com/th/id/OIP.culyF4csYKjgaJYxiFyu-AHaFj?rs=1&pid=ImgDetMain);
   min-height: 50px; 
   background-position: right top; 
   background-repeat: no-repeat;} 
@@ -80,15 +80,11 @@ or devices with different sizes.
   
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
 body {
-  background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;}
 
-  header { 
+
+  head h1{ 
     background-image: url(images\LogoLarge.png);
     min-height: 100px; 
-    background-position: right top; 
-   
+    background-position: right top; }
 }
-
-}
-
-} 
