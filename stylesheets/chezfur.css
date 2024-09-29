@@ -7,7 +7,7 @@ much like an outline you create for a paper or presentation
 Example: 
 ************************************************************/
 body {
-    /** rule here**/
+    /** Text color is identified by just "Color" **/
     background-color: peru; color: bisque; font-family: sans-serif;
   }
 
@@ -30,6 +30,11 @@ Example:
 
         } 
 /*************************************************************/
+
+
+
+ /** This example inclided the Padding and margin attribute. didnt add much but I think this is good practice when using color backgrounds so the words pop out" **/
+
 main {
     margin: 0;
     padding: 5px;
@@ -56,7 +61,7 @@ Do not have a second one unless you asked to code for notebooks
 or devices with different sizes.   
 ***************************************************************/
 
-@media screen and (min-width: 1080px)  {
+@media screen and (min-width: 750px)  {
 
  /***********************************************************
  Follow the pattern for the small screen, with appropriate
@@ -64,6 +69,14 @@ or devices with different sizes.
     ALL LARGE SCREEN rules, followed by 
     RULES FOR INDIVIDUAL PAGES, if any.
 *************************************************************/
-    
+  
+
+
 }
+
+/* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
+body {
+  background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
