@@ -6,6 +6,10 @@ NESTED to help you place the rules in a logical order --
 much like an outline you create for a paper or presentation
 Example: 
 ************************************************************/
+h1{ background-image: url("..\images\Logosmall.png");
+  min-height: 100px; 
+  background-position: right top; 
+  background-repeat: no-repeat;}
 body {
     /** Text color is identified by just "Color" **/
     background-color: peru; color: bisque; font-family: sans-serif;
@@ -31,23 +35,16 @@ Example:
         } 
 /*************************************************************/
 
-
-
-header{ 
-  background-image: url(..\images\LogoSmall.png);
-  min-height: 50px; 
-  background-position: right top; 
-  background-repeat: no-repeat;} 
-
 /** This example included the Padding and margin attribute. didnt add much but I think this is good practice when using color backgrounds so the words pop out" **/
 
 
 
 main {
-    margin: 0;
-    padding: 5px;
     content:normal ; background-color: saddlebrown;
     color: gainsboro;
+ 
+ 
+ 
   }
 /**************************************************************
 ***************************************************************
@@ -77,14 +74,12 @@ or devices with different sizes.
     ALL LARGE SCREEN rules, followed by 
     RULES FOR INDIVIDUAL PAGES, if any.
 *************************************************************/
-header{ 
 
-  background-image: url(..\images\LogoLarge.png);
-  min-height: 100px; 
-  background-position: right top; 
-  background-repeat: no-repeat;} 
 
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
 body {
   background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;}
 }
+h1{ background-image: url("..\images\LogoLarge.png"); 
+  background-position: right top; 
+  background-repeat: no-repeat;}
