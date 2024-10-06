@@ -9,8 +9,9 @@ Example:
 
 body {
     /** Text color is identified by just "Color" **/
+    background-image: url(..\images\Logosmall.png);background-position: right top; background-repeat: no-repeat; background-size: auto;
     background-color: peru; color: bisque; font-family: sans-serif;
-    h1{background-image: url("..\images\Logosmall.png");background-position: right top; background-repeat: no-repeat; background-size: auto; }  
+  
     
   }
 
@@ -76,9 +77,13 @@ or devices with different sizes.
 
 
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
+
+
 body {
-  background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;
-  h1{background-image: url("..\images\LogoLarge.png"); background-position: right top; background-repeat: no-repeat;} 
+ background-image: url("../images/LogoLarge.png"); background-position: right top; background-repeat: no-repeat;
+background-color: maroon; color: moccasin; font-family: Georgia, 'Times New Roman', Times, serif;
+  
+   
 }
 
 }
