@@ -8,24 +8,25 @@ Example:
 ************************************************************/
 
 ul{list-style: none;}
-li{font-size: 1.25em;}
-dl{font-weight: bold;}
+li{font-size: 1.25em;display: inline;margin: 1;text-align: center;}
+dl{font-weight: normal;}
 dd{font-style: italic;}
 
 nav{ a{color: #032580;}
   display: block;
   color: #b47931 ;
+
+
 }
 body {
     /** Text color is identified by just "Color" **/
     .Cathosts-Container{ background-color: #cfa775;border-radius: 10px;background-size: 90%;}
-    #
     background-image: url(..\images\Logosmall.png);background-position: right top; background-repeat: no-repeat; background-size: auto;
     background-color: #e7ba83; color: #2c2716; font-family: sans-serif;
-  
-    aside {background-color: #b47931; color: #3a3311; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
-
-    }
+    
+ p.allergeydisclaimer{clear:right;text-align:center;}
+    
+    
  
   }
 
@@ -56,6 +57,8 @@ Example:
 main {
     content:normal ; background-color: #dbb483;
     color: #5c5555;
+
+    menu-h3{ font-size: xx-large;color:rgb(255, 255, 255);font-weight: bolder;}
  
  
  
@@ -92,13 +95,56 @@ or devices with different sizes.
 
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
 
+ul{list-style: none;margin: 0;
+  padding: 0;}
+li{font-size: 1.25em;display: block; width: 72px; ; background-color: #d47e0d;margin:1%; text-align: center;}
+dl{font-weight: bold;margin: 3%}
+dd{font-style: italic;margin: 2% ;}
+
+
+
+/** Colum Styles*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Creates two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding:10px;
+ height: 1600px;
+  
+  /* Should be removed. Only for demonstration */
+  
+}
+
+.left {
+  width: 12%;
+}
+
+.right {
+  width: 88%; background-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/** End of colum Styles*/
+
+
+
+
 
 body {
  background-image: url("../images/LogoLarge.png"); background-position: right top; background-repeat: no-repeat;
 nav{
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(0, 20, 0); 
   }
   
   /* mouse over link */
@@ -110,6 +156,16 @@ nav{
   a:active {
     color: blue;
   }}
+
+  menu-h8{ aside{background-color: #36a709; color: #3a3311; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: bold;padding:0%; width: 200px; border: #000000;border-style:solid;border-radius: 10%;text-align:center;}
+    
+     }
+aside {background-color: #b47931; color: #3a3311; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+      font-weight: bold;padding:1%; width: 750px; border: #000000;border-style: solid;border-radius: 5%;
+
+    }
+     
  /**I chose my colors by playing around with paint. I wanted colors that we similar to eachother so the main and body of my site were similar but different. The orginal colors were too different. The bodytext to background ratio is 8.33:1 */
 
 background-color: #e7ba83; color: #2c2716; font-family: Georgia, 'Times New Roman', Times, serif ;
