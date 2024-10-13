@@ -19,7 +19,7 @@ nav{ a{color: #032580;}
 body {
     /** Text color is identified by just "Color" **/
     .Cathosts-Container{ background-color: #cfa775;border-radius: 10px;background-size: 90%;}
-    
+    #
     background-image: url(..\images\Logosmall.png);background-position: right top; background-repeat: no-repeat; background-size: auto;
     background-color: #e7ba83; color: #2c2716; font-family: sans-serif;
   
@@ -103,7 +103,7 @@ nav{
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(255, 192, 203);
   }
   
   /* selected link */
