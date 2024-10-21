@@ -7,20 +7,30 @@ much like an outline you create for a paper or presentation
 Example: 
 ************************************************************/
 
-ul{list-style: none;}
-li{font-size: 1.25em;display: inline;margin: 1;text-align: center;}
+
 dl{font-weight: normal;}
 dd{font-style: italic;}
 
-nav{ a{color: #032580;}
-  display: block;
-  color: #b47931 ;
-
+nav{ .Nav-container{color: #b47931; display: block; font-size: 1.25em;; width: 72px; ; background-color: #d47e0d;margin:1%; text-align: center;flex-direction:row;justify-content: eve;} 
 
 }
+
+.Cathosts-Container{ background-color: #cfa775;border-radius: 10px;border: width 90%;border-style:solid;display: flex ;flex-wrap: wrap;
+  justify-content: space-evenly; image-rendering:optimizeQuality;} 
+
+.Sponsors{ background-color: #cf8c39;flex-wrap: wrap;border-style:solid;display: flex;
+    justify-content: space-around ;}
+
+    .Sponsors >div{background-color:#cf8c39;margin: 10px;
+      padding: 20px;
+      font-size: 30px;} 
+
+/**.Cathosts-Container > div{ background-color: #cf8c39;flex-wrap: wrap;
+justify-content: space-evenly;} **/
+
 body {
     /** Text color is identified by just "Color" **/
-    .Cathosts-Container{ background-color: #cfa775;border-radius: 10px;background-size: 90%;}
+
     background-image: url(..\images\Logosmall.png);background-position: right top; background-repeat: no-repeat; background-size: auto;
     background-color: #e7ba83; color: #2c2716; font-family: sans-serif;
     
@@ -95,11 +105,23 @@ or devices with different sizes.
 
 /* This is where we determine all the  rules for regular computers. The earlier comments were a bit unclear. **/
 
-ul{list-style: none;margin: 0;
+
+/**ul{list-style: none;margin: 0;
   padding: 0;}
-li{font-size: 1.25em;display: block; width: 72px; ; background-color: #d47e0d;margin:1%; text-align: center;}
+li{font-size: 1.25em;display: block; width: 72px; ; background-color: #d47e0d;margin:1%; text-align: center;} **/
+
+
+
 dl{font-weight: bold;margin: 3%}
 dd{font-style: italic;margin: 2% ;}
+
+/** Flexbox rule for Wrapper**/
+.wrapper{display: flex;}
+
+/** Flexbox rule for NAV **/
+nav{ .Nav-container{color: #b47931; display: block; font-size: 1.25em;; width: 72px; ; background-color: #d47e0d;margin:1%; text-align: center;flex-direction:row-reverse;height: 100vh;} 
+
+}
 
 
 
@@ -136,7 +158,7 @@ dd{font-style: italic;margin: 2% ;}
 /** End of colum Styles*/
 
 
-
+    
 
 
 body {
@@ -165,7 +187,8 @@ aside {background-color: #b47931; color: #3a3311; font-family:system-ui, -apple-
       font-weight: bold;padding:1%; width: 750px; border: #000000;border-style: solid;border-radius: 5%;
 
     }
-     
+
+
  /**I chose my colors by playing around with paint. I wanted colors that we similar to eachother so the main and body of my site were similar but different. The orginal colors were too different. The bodytext to background ratio is 8.33:1 */
 
 background-color: #e7ba83; color: #2c2716; font-family: Georgia, 'Times New Roman', Times, serif ;
@@ -173,6 +196,7 @@ background-color: #e7ba83; color: #2c2716; font-family: Georgia, 'Times New Roma
 
 
 }
-   
+/**allos the the height of the main content and Nav pane to match**/
+main{height: 100vh;overflow: scroll;}
 }
 
