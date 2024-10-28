@@ -7,7 +7,7 @@ much like an outline you create for a paper or presentation
 Example: 
 ************************************************************/
 
-
+ul{list-style: none;margin: 0}
 dl{font-weight: normal;}
 dd{font-style: italic;}
 
@@ -25,6 +25,8 @@ nav{ .Nav-container{color: #b47931; display: block; font-size: 1.25em;; width: 7
       padding: 20px;
       font-size: 30px;} 
 
+
+
 /**.Cathosts-Container > div{ background-color: #cf8c39;flex-wrap: wrap;
 justify-content: space-evenly;} **/
 
@@ -36,7 +38,19 @@ body {
     
  p.allergeydisclaimer{clear:right;text-align:center;}
     
-    
+   /*Main{.Container-adopted{
+    display: grid;
+    grid-template-columns: auto ;grid-template-rows: auto;grid-gap: 10px;}
+  
+    .item1{}
+    .item2{}
+    .item3{}
+    .item4{}
+    .item5{}
+    .item6{}
+    .item7{}
+    .item8{}
+  } 
  
   }
 
@@ -111,7 +125,7 @@ or devices with different sizes.
 li{font-size: 1.25em;display: block; width: 72px; ; background-color: #d47e0d;margin:1%; text-align: center;} **/
 
 
-
+ul{list-style: none;margin: 0}
 dl{font-weight: bold;margin: 3%}
 dd{font-style: italic;margin: 2% ;}
 
@@ -123,6 +137,7 @@ nav{ .Nav-container{color: #b47931; display: block; font-size: 1.25em;; width: 7
 
 }
 
+/**This is the container for all the adopted hosts from the past**/
 
 
 /** Colum Styles*/
@@ -197,6 +212,21 @@ background-color: #e7ba83; color: #2c2716; font-family: Georgia, 'Times New Roma
 
 }
 /**allos the the height of the main content and Nav pane to match**/
-main{height: 100vh;overflow: scroll;}
+main{height: 100vh;overflow: scroll;
+
+  /** Code for adopted cats container*/
+  .Container-adopted{
+    display: grid;
+    grid-template-columns:2fr 1fr ;grid-template-rows: 750px;grid-gap: 10px;justify-content: stretch;}
+  
+    .item1{}
+    .item2{}
+    .item3{}
+    .item4{}
+    .item5{}
+    .item6{}
+    .item7{}
+    .item8{}
+  }
 }
 
